@@ -42,10 +42,10 @@ export default function Requirements() {
                     <p className="block  font-bold text-lg text-[#111827] my-5">Please send us a signed "Skylight Funding Loan Application" with the following documents to e-mail: apps@skylightfunding.com</p>
                     {requirements.map((req, i) => (
                         <div className='flex gap-8 mt-5 items-center's key={i}>
-                            <div className='text-4xl text-[#111827]'>{req.icon}</div>
+                            <div className='text-3xl md:text-4xl text-[#111827]'>{req.icon}</div>
                             <div>
-                                <h1 className='text-4xl font-bold text-[#111827]'>{req.title}</h1>
-                                <p className='text-xl text-[#111827]'>{req.text}</p>
+                                <h1 className='text-2xl md:text-4xl font-bold text-[#111827]'>{req.title}</h1>
+                                <p className='text-lg md:text-xl text-[#111827] whitespace-nowrap'>{req.text}</p>
                             </div>
                         </div>
 
