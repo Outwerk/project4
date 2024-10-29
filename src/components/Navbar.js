@@ -5,7 +5,7 @@ export default function Navbar() {
     <>
     <header>
       <nav
-        className="relative flex w-full items-center justify-between bg-[#111827] py-2 shadow-dark-mild dark:bg-body-dark lg:flex-wrap md:justify-start lg:py-4"
+        className="relative flex w-full h-16 items-center justify-between bg-[#111827] py-2 shadow-dark-mild dark:bg-body-dark lg:flex-wrap md:justify-start lg:py-4"
         data-twe-navbar-ref>
         <div className="flex w-full flex-wrap items-center justify-between px-3">
           <div className="flex items-center">

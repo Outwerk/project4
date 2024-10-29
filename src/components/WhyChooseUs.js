@@ -1,9 +1,40 @@
 import React from 'react'
 
 export default function WhyChooseUs() {
+
+    const reasons = [
+        {
+            text: <p className="mt-4 text-gray-600">
+                <span className='text-xl font-semibold'>Clear and Honest Conditions : </span> We prioritize transparency, so you can trust that there are no hidden charges or unexpected terms in your agreement.
+            </p>
+
+        },
+        {
+            text: <p className="mt-4 text-gray-600">
+                <span className='text-xl font-semibold'>Expert Assistance : </span> Our knowledgeable support team is available to help you navigate the application process and answer any questions you may have.
+            </p>
+
+        },
+        {
+            text: <p className="mt-4 text-gray-600">
+                <span className='text-xl font-semibold'>Quick and Simple Process : </span>Our streamlined online application makes it easy for you to access the funds you need, saving you time and hassle.
+            </p>
+        },
+        {
+            text: <p className="mt-4 text-gray-600">
+                <span className='text-xl font-semibold'>Fast Approval Times : </span>We aim to process your application swiftly, ensuring that you get the financial support you need when you need it.
+            </p>
+        },
+        {
+            text: <p className="mt-4 text-gray-600">
+                <span className='text-xl font-semibold'>User-Friendly Interface : </span> Our online platform is designed for ease of use, allowing you to complete your application effortlessly from any device.
+            </p>
+        },
+    ]
+
     return (
         <section>
-            <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+            <div className="mx-auto lg:max-w-screen-xl xl:max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
                     <div className="relative z-10 lg:py-16">
                         <div className="relative h-64 sm:h-80 lg:h-full">
@@ -24,12 +55,14 @@ export default function WhyChooseUs() {
                             <h2 className="text-2xl font-bold sm:text-3xl">
                                 Why Choose Us?
                             </h2>
+                            <ul className="list-disc pl-5">
+                                {reasons.map((reason, i) => (
+                                    <li key={i}>{reason.text}</li>
+                                ))}
+                            </ul>
 
-                            <p className="mt-4 text-gray-600">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est
-                                esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam
-                                architecto eius quis quibusdam fugiat dicta.
-                            </p>
+
+
 
                             <a
                                 href="#"

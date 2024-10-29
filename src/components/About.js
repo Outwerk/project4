@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
     return (
         <section>
-            <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+            <div className="mx-auto lg:max-w-screen-xl xl:max-w-screen-2xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
                 <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
                     <div className="grid place-content-center rounded bg-gray-100 p-6 sm:p-8">
                         <div className="mx-auto max-w-md text-center lg:text-left">
@@ -11,9 +11,21 @@ export default function About() {
                                 <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">About</h2>
                                 <div className="seprator"></div>
 
-                                <p className="mt-4 text-gray-500">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, molestiae exercitationem. Illo vitae necessitatibus inventore! Velit vitae illo nisi corrupti ipsam dolor voluptatibus eos porro, ab nostrum ea neque dolorem.
+                                <p className="mt-4 text-gray-600">
+                                    We are committed to offering quick and dependable loan services. Our goal is to empower individuals by providing the financial resources they need to reach their objectives.
                                 </p>
+                                <p className="mt-4 text-gray-600">
+                                    Our approach differs from traditional banks. You don't need a perfect credit score or collateral to secure funding. We offer personalized repayment plans that are flexible and affordable. Many clients choose Skylight Funding because businesses often have better approval rates for cash advances than bank loans.
+                                </p>
+                            </header>
+                            <header>
+                                <h2 className="text-lg font-bold text-gray-900 sm:text-xl mt-3">Our Commitment</h2>
+                                <div className="seprator"></div>
+
+                                <p className="mt-4 text-gray-600">
+                                    At This App Name, your success is our top priority. We focus on delivering outstanding service, competitive rates, and a seamless experience. Your financial health matters to us, and we are dedicated to assisting you every step of your financial journey.
+                                </p>
+
                             </header>
 
                             <a
