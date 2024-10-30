@@ -526,7 +526,7 @@ export default function Form() {
 
                     <button
                         type="submit"
-                        className="inline-block w-fit rounded bg-primary px-6 pb-2 pt-2.5 text-sm  uppercase leading-normal  shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong bg-[#D7D7DD] text-black font-bold"
+                        className="inline-block w-fit rounded bg-primary px-6 pb-2 pt-2.5 text-sm  uppercase leading-normal  shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong bg-[#D7D7DD] text-black hover:bg-transparent hover:text-white outline font-bold"
                         data-twe-ripple-init
                         data-twe-ripple-color="light">
                         {loader ?
