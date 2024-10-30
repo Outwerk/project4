@@ -147,7 +147,7 @@ export default function Form() {
             className=" md:mx-auto block w-screen md:max-w-2xl 2xl:max-w-2xl rounded-xl bg-[#111827] p-6 py-12  shadow-4 dark:bg-surface-dark">
             <h1 className="text-white mb-12 ">We'd love to hear from you! Whether you have a question about our services feel free to reach out to us using the form below.</h1>
             <form onSubmit={handleSubmit} ref={formRef}>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-3 md:mb-0">
+                <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 mb-3 md:mb-0">
                     {/* merchanFullName */}
                     <div className="relative mb-8" data-twe-input-wrapper-init>
                         <input
@@ -166,7 +166,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlhtmlfor="merchanFullName"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${merchanFullName && "-translate-y-[1.6rem] scale-[0.8]"}
-                            ${isHovered == "merchanFullName" && "-translate-y-[1.6rem] scale-[0.8]"}
+                            ${isHovered === "merchanFullName" && "-translate-y-[1.6rem] scale-[0.8]"}
                             peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >Merchan FullName
                         </label>
@@ -190,7 +190,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlfor="businessLegalName"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${businessLegalName && "-translate-y-[1.6rem] scale-[0.8]"}
-                            ${isHovered == "businessLegalName" && "-translate-y-[1.6rem] scale-[0.8]"}
+                            ${isHovered === "businessLegalName" && "-translate-y-[1.6rem] scale-[0.8]"}
                             peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >Business Legal Name
                         </label>
@@ -217,7 +217,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlhtmlfor="amountRequested"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${amountRequested && "-translate-y-[1.6rem] scale-[0.8]"}
-                             ${isHovered == "amountRequested" && "-translate-y-[1.6rem] scale-[0.8]"}
+                             ${isHovered === "amountRequested" && "-translate-y-[1.6rem] scale-[0.8]"}
                             peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >Amount Requested
                         </label>
@@ -240,7 +240,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlfor="email"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${email && "-translate-y-[1.6rem] scale-[0.8]"}
-                            ${isHovered == "email" && "-translate-y-[1.6rem] scale-[0.8]"}
+                            ${isHovered === "email" && "-translate-y-[1.6rem] scale-[0.8]"}
                             peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >Email
                         </label>
@@ -264,7 +264,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlfor="industry"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${industry && "-translate-y-[1.6rem] scale-[0.8]"}
-                            ${isHovered == "industry" && "-translate-y-[1.6rem] scale-[0.8]"}
+                            ${isHovered === "industry" && "-translate-y-[1.6rem] scale-[0.8]"}
                             peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >Industry
                         </label>
@@ -328,7 +328,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlfor="EIN"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${EIN && "-translate-y-[1.6rem] scale-[0.8]"} 
-                             ${isHovered == "EIN" && "-translate-y-[1.6rem] scale-[0.8]"}
+                             ${isHovered === "EIN" && "-translate-y-[1.6rem] scale-[0.8]"}
                             peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >EIN
                         </label>
@@ -355,7 +355,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlhtmlfor="businessAddress"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${businessAddress && "-translate-y-[1.6rem] scale-[0.8]"}
-                            ${isHovered == "businessAddress" && "-translate-y-[1.6rem] scale-[0.8]"}
+                            ${isHovered === "businessAddress" && "-translate-y-[1.6rem] scale-[0.8]"}
                             peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >Business Address
                         </label>
@@ -378,7 +378,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlfor="socialSec"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${socialSec && "-translate-y-[1.6rem] scale-[0.8]"}
-                            ${isHovered == "socialSec" && "-translate-y-[1.6rem] scale-[0.8]"}
+                            ${isHovered === "socialSec" && "-translate-y-[1.6rem] scale-[0.8]"}
                              peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >Social Sec
                         </label>
@@ -406,7 +406,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlfor="homeAddress"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${homeAddress && "-translate-y-[1.6rem] scale-[0.8]"}
-                            ${isHovered == "homeAddress" && "-translate-y-[1.6rem] scale-[0.8]"} peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
+                            ${isHovered === "homeAddress" && "-translate-y-[1.6rem] scale-[0.8]"} peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >Home Address
                         </label>
                     </div>
@@ -428,7 +428,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlfor="purposeOfFund"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${purposeOfFund && "-translate-y-[1.6rem] scale-[0.8]"}
-                            ${isHovered == "purposeOfFund" && "-translate-y-[1.6rem] scale-[0.8]"}
+                            ${isHovered === "purposeOfFund" && "-translate-y-[1.6rem] scale-[0.8]"}
                             peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >Purpose of Fund
                         </label>
@@ -455,7 +455,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlhtmlfor="ownerShip"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${ownerShip && "-translate-y-[1.6rem] scale-[0.8]"}
-                            ${isHovered == "ownerShip" && "-translate-y-[1.6rem] scale-[0.8]"}
+                            ${isHovered === "ownerShip" && "-translate-y-[1.6rem] scale-[0.8]"}
                             peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >OwnerShip
                         </label>
@@ -478,7 +478,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlfor="contactNo"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${contactNo && "-translate-y-[1.6rem] scale-[0.8]"}
-                            ${isHovered == "contactNo" && "-translate-y-[1.6rem] scale-[0.8]"}
+                            ${isHovered === "contactNo" && "-translate-y-[1.6rem] scale-[0.8]"}
                             peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >Contact No
                         </label>
@@ -502,7 +502,7 @@ export default function Form() {
                             onMouseLeave={() => setIsHovered("")}
                             htmlfor="altContactNo"
                             className={`"pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out ${altContactNo && "-translate-y-[1.6rem] scale-[0.8]"}
-                            ${isHovered == "altContactNo" && "-translate-y-[1.6rem] scale-[0.8]"}
+                            ${isHovered === "altContactNo" && "-translate-y-[1.6rem] scale-[0.8]"}
                             peer-focus:-translate-y-[1.6rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-300 dark:peer-focus:text-primary rounded-lg"`}
                         >Alt Contact No
                         </label>
@@ -511,7 +511,7 @@ export default function Form() {
 
 
                 {/* Attachment */}
-                <div className='flex justify-between items-center'>
+                <div className='flex flex-col md:flex-row justify-between items:start md:items-center '>
                     <div className='flex flex-col sm:flex-row gap-3 text-[15px] text-white'>
                         <h2>Attachment</h2>
                         <input
