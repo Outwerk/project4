@@ -144,7 +144,7 @@ export default function Form() {
 
     return (
         <div
-            className=" md:mx-auto block max-w-screen-sm md:max-w-2xl 2xl:max-w-2xl rounded-xl bg-[#111827] p-6 py-12  shadow-4 dark:bg-surface-dark">
+            className=" md:mx-auto block w-screen md:max-w-2xl 2xl:max-w-2xl rounded-xl bg-[#111827] p-6 py-12  shadow-4 dark:bg-surface-dark">
             <h1 className="text-white mb-12 ">We'd love to hear from you! Whether you have a question about our services feel free to reach out to us using the form below.</h1>
             <form onSubmit={handleSubmit} ref={formRef}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-3 md:mb-0">
