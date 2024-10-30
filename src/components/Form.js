@@ -511,7 +511,7 @@ export default function Form() {
 
 
                 {/* Attachment */}
-                <div className='flex flex-col md:flex-row justify-between items:start md:items-center '>
+                <div className='flex flex-col md:flex-row justify-between items:start md:items-center gap-2 md:gap-0'>
                     <div className='flex flex-col sm:flex-row gap-3 text-[15px] text-white'>
                         <h2>Attachment</h2>
                         <input
