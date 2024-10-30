@@ -24,7 +24,7 @@ export default function Requirements() {
 
     return (
         <section
-            className="relative bg-[url(https://images.pexels.com/photos/2418435/pexels-photo-2418435.jpeg?auto=compress&cs=tinysrgb&w=600)] bg-cover bg-center bg-no-repeat mb-10"
+            className="relative bg-[url(https://images.pexels.com/photos/2418435/pexels-photo-2418435.jpeg?auto=compress&cs=tinysrgb&w=600)] bg-cover bg-center bg-no-repeat "
         >
             <div
                 className="absolute inset-0 bg-gray-900/1 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
@@ -55,7 +55,7 @@ export default function Requirements() {
                     <div className="mt-1 flex flex-wrap gap-4 text-center">
                         <a
                             href="#"
-                            className="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring"
+                            className="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring hover:bg-transparent hover:text-gray-900 "
                         >
                             Contact NOW
                         </a>
