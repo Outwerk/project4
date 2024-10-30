@@ -3,7 +3,7 @@ import Form from './Form'
 
 export default function HeroSection() {
   return (
-    <div className="hero bg-base-200 min-h-screen w-full flex flex-col lg:flex-row justify-center items-center lg:items-stretch gap-10 lg:gap-72 mt-20 ">
+    <div className="hero bg-base-200 min-h-screen w-full flex flex-col lg:flex-row justify-center items-center lg:items-stretch gap-10 lg:gap-44 2xl:gap-72 mt-20 ">
 
     <div className="hero-content ms-5 sm:ms-0 lg:mt-20">
       <div className="max-w-md">
