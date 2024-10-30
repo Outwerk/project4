@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
     return (
         <footer 
-        className="footer bg-base-300 bg-[#111827] text-white text-base-content p-10 px-0 md:px-24
+        className="footer bg-base-300 bg-[#111827] text-white text-base-content p-10 px-4 md:px-6 lg:px-8 2xl:px-24
          flex flex-col md:flex-row items-start md:items-center justify-between gap-5 md:gap-0">
             <nav className='flex flex-col'>
                 <h6 className="footer-title text-xl mb-3">Services</h6>
