@@ -7,9 +7,9 @@ import { BiLogoInstagramAlt } from "react-icons/bi";
 
 export default function HeroSection() {
   return (
-    <div className="hero bg-base-200 min-h-screen w-full flex flex-col lg:flex-row justify-center items-center md:items-start ms-0 md:ms-6 lg:ms-0 lg:items-stretch gap-10 lg:gap-52 2xl:gap-72 mt-10 md:mt-16 ">
+    <div className="hero bg-base-200 min-h-screen w-full flex flex-col lg:flex-row justify-center items-center md:items-start ms-0 md:ms-6 lg:ms-0 lg:items-stretch gap-10 lg:gap-52 2xl:gap-80 mt-10 md:mt-16 ">
 
-    <div className="hero-content ms-5 sm:ms-3 lg:ms-10 lg:mt-28 ">
+    <div className="hero-content ms-4 sm:ms-3 lg:ms-10 lg:mt-28 ">
       <div className="max-w-md">
         <h1 className="text-4xl md:text-5xl font-bold">Connect With Your Money World!</h1>
         <p className="py-6 text-2xl font-semibold">
